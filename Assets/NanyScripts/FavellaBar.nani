@@ -1,0 +1,6 @@
+# BarDoor
+@back black id:Favella
+@movie MapCitySpuskBar time:0.001
+@back FavellaBarDoor id:Favella
+ты у входа в бар
+@stop

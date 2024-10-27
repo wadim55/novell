@@ -1,0 +1,14 @@
+@back FavellaUp id:Favella
+@choice handler:ButtonArea button:DescentButtonBarDoor pos:0,20 goto:FavellaBar.BarDoor
+@choice handler:ButtonArea button:DescentLombardButton pos:0,-250 goto:FavellaLombard.LombardDoor
+@choice handler:ButtonArea button:DescentMetroButton pos:450,-350 goto:Metro.MetroEnter
+
+
+
+
+
+
+
+
+
+@stop

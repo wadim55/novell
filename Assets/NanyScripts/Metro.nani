@@ -1,0 +1,30 @@
+# MetroEnter
+@back black id:Favella
+@movie MapCitySpuskMetro time:0.001
+@back metro1 id:Metro
+@bgm atmosfera_metro volume:0.1
+ты в метро!
+@char Kassir.kassir1 pos:-10,0
+@char Kassir.kassir1 pos:10,0
+проезд платный 50 рублей, поедешь???
+@choice "Заплачу и поеду" goto .train_arrive
+@choice "Нахер надо, дорого!"
+
+@stop
+
+
+
+
+# train_arrive
+@char Kassir.kassir1 pos:-10,0
+@back train_arrival_1 id:Metro
+@spawn ShakeBackground wait:true
+@back train_arrival_2 id:Metro
+@spawn ShakeBackground
+@back train_arrival_3 id:Metro
+@spawn ShakeBackground
+@back train_arrival_4 id:Metro
+@spawn ShakeBackground
+@back train_arrival_5 id:Metro
+@spawn ShakeBackground
+@back train_arrival_6 id:Metro
